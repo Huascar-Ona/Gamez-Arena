@@ -5,7 +5,7 @@ config/database.yml
 log/*
 tmp/**/*
 tmp/*
-*.swap*
+*.swp*
 .DS_Store
 .rvmrc
 dump.rdb

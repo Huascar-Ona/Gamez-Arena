@@ -1,0 +1,81 @@
+.header
+  .wrapper
+    %h3
+      %a{:href => "#"} Gamez Arena
+    %form
+      %label Nombre:
+      .input-wrapper
+        %input{:name => 'nombre', :type => 'text'}
+        %br
+        %input{:id => 'recordarme', :type => 'checkbox'}
+        %label.small{:for => 'recordarme'}
+          No cerrar sesion
+      %label Contrasena:
+      .input-wrapper
+        %input{:name => 'contrasena', :type => 'password'}  
+        %input{:class => 'btn', :type => 'submit', :value => 'Entrar'}
+    .clear    
+      
+ 
+.wrapper
+  .contentwrap
+    .contenidol
+      %img{:src => '/cubic.jpg', :width => '300px', :height => '250px'}
+  .siderbarwrap
+    .contentr
+      %h2
+        Registrate
+      %form{:action => '#', :method => 'post'}
+        %ul
+          %li
+            %label Gamer Nick:
+            %input{:name => 'nombre', :type => 'text'}
+          %li
+            %label Contrasena:
+            %input{:name => 'contrasena', :type => 'password'}
+          %li
+            %label Correo Electronico:
+            %input{:name => 'correo', :type => 'text'}
+          %li
+            %label Fecha de nacimiento:
+            %select{:name => 'Dia'}
+              %option{:value => '-1'}
+                Dia:
+              %option{:value => '1'}
+                1
+              %option{:value => '2'}
+                2
+              %option{:value => '3'}
+                3
+              %option{:value => '4'}
+                4
+              %option{:value => '5'}
+                5 
+            %select{:name => 'Mes'}
+              %option{:value => '-1'}
+                Mes:
+              %option{:value => '1'}
+                Enero
+              %option{:value => '2'}
+                Febrero
+              %option{:value => '3'}
+                Marzo
+              %option{:value => '4'}
+                Abril
+              %option{:value => '5'}
+                Mayo
+            %select{:name => 'Año'}
+              %option{:value => '-1'}
+                Año:
+              %option{:value => '1'}
+                2012
+              %option{:value => '2'}
+                2011
+              %option{:value => '3'}
+                2010
+              %option{:value => '4'}
+                2009
+              %option{:value => '5'}
+                2008
+          %input{:class => 'btn info', :type => 'submit', :value => 'Registrarse'}
+  .clear            

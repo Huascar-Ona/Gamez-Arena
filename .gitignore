@@ -1,0 +1,13 @@
+config/app.yml
+config/application.yml
+config/database.yml
+
+log/*
+tmp/**/*
+tmp/*
+*.swap*
+.DS_Store
+.rvmrc
+dump.rdb
+test/**/*
+test/*

@@ -1,0 +1,87 @@
+body{
+  background-color: #CAE0E8;
+}
+.header{
+  min-width: 940px;
+  background-color: #404040;
+  .wrapper{
+    margin: auto;
+    width: 940px;
+    h3{
+      float: left;
+      font-size: 32px;
+      padding-top: 15px;
+      a{
+        color: white;
+      }
+    }
+    form{
+      margin-bottom: 10px;
+      padding-top: 8px;
+      float: right;
+      label, .input-wrapper {
+        float: left;
+        display: block;
+      }
+      label{
+        margin-left: 15px;
+        color: white;
+        display: block;
+        width: inherit;
+        &.small {
+          display: inline;
+          float: none;
+          margin-left: 0px;
+        }
+      }
+    }
+  }  
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  .contentwrap {
+    display: inline-block;
+    padding-top: 35px;
+    float: left;
+    
+  }
+  .siderbarwrap {
+    display: inline-block;
+    padding-top: 35px;
+    padding-right: 8px;
+    float: right;
+  }
+  li{
+    list-style: none;
+    margin-top: 10px;
+  }
+  input{
+    margin-top: 3px;
+    margin-left: 3px;
+    border: 1px solid black;
+    &.btn.info{
+      float: right;
+      margin-top: 9px;
+    }
+  }
+  select{
+    margin-top: 3px;
+    margin-left: 3px;
+    width: auto;
+    border: 1px solid black;
+  }
+  label{
+    line-height: 15px;
+  }
+  select{
+    margin-left: 3px;
+  }
+  padding: 0px;
+}
+
+.clear{
+  clear: both;
+}
+

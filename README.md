@@ -1,1 +1,1 @@
-Sistema de partidas igualadas.
+Sistema de partidas igualadas para videojuegos en línea.
